@@ -19,6 +19,6 @@ function deepestChild() {
   while (tags.length > 1) {
     tags = tags.children;
   } else {
-    return tags[0]
+    return tags[0];
   }
 }
